@@ -1,0 +1,11 @@
+body {
+    align-content: center;
+}
+
+.content{
+    margin: auto;
+    padding: 100px;
+}
+button {
+    font-size: large;
+}
