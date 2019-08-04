@@ -1,11 +1,33 @@
 body {
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/motion-background-loop-5.jpg");
 }
 
 .content{
     margin: auto;
     padding: 100px;
+    color: yellow;
+}
+#count {
+    display: block;
+    padding-left: 155px;
+    padding-bottom: 30px;
+    font-size: 30px;
 }
 button {
     font-size: large;
 }
+#button-decrement{
+    color: red;
+}
+
+#button-increment {
+    color: green;
+}
+
+#button-reset {
+    color: blue;
+}
+
